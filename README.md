@@ -16,4 +16,6 @@ There is a sample Customer class that utilizes '/customer/' endpoint. To view au
 To log in to frontend of application use login password pair admin/1. These are credentials both for regular REST endpoints and standard Spring Boot actuator endpoints, which are listed in application startup log.
 
 There are custom health endpoints . To reach them call endpoint GET http://localhost:8080/test . It should return 'true' in response body. You can also use additional endpoint to check current server time: GET http://localhost:8080/now . Requests should be accompanied by "Accept" and "Content-Type" headers with value application/json.
-Sample rest controller supports exception handling and JSON pretty printing. Change src/main/resources/application.properties to customize the application using standard Spring Boot properties.
+Sample rest controller supports exception handling and JSON pretty printing. 
+
+Change src/main/resources/application.properties to customize the application using standard Spring Boot properties.
