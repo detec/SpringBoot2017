@@ -26,3 +26,5 @@ nbdist/
 .settings
 mvnw
 mvnw.cmd
+.gradle/
+gradle/
