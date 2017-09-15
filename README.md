@@ -1,6 +1,6 @@
 # SpringBoot2017
 
-This is a template project to build with Maven. It uses Spring Data for H2 and runs with Spring Boot.
+This is a template project to build with Maven or Gradle. It uses Spring Data for H2 and runs with Spring Boot.
 
 Its core components are:
 - Spring Boot 1.5;
@@ -19,3 +19,5 @@ There are custom health endpoints . To reach them call endpoint GET http://local
 Sample rest controller supports exception handling and JSON pretty printing. 
 
 Change src/main/resources/application.properties to customize the application using standard Spring Boot properties.
+
+To build project use commands "mvn package" or "gradlew build" respectively.
